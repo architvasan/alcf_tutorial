@@ -1,3 +1,5 @@
+# Generally using Python on Polaris
+
 # Using Jupyter Notebooks on Polaris
 
 ## Logging in 
