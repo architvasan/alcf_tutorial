@@ -9,7 +9,6 @@ Select "Login Polaris" and use your ALCF credentials and Multi-Factor Authentica
 <source src="[your_link_MP4](https://github.com/architvasan/alcf_tutorial/blob/a8064fd29dbd85c0f7b8eb4d5fe20df258f86887/JupyterNotebookLogin.mp4
 )" type="video/mp4">
 </video>
-![Login GIF](JupyterNotebookLogin.gif)
 
 ## Server settings and start up
 You want to setup your server options to these following:
