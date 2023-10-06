@@ -4,7 +4,27 @@
 
 Request an interactive node on Polaris with:
 
-''' qsub -I -A fallws23single -l select=1 -l walltime=01:00:00 -l filesystems=home:grand:eagle -q debug'''
+```qsub -I -A fallws23single -l select=1 -l walltime=01:00:00 -l filesystems=home:grand:eagle -q debug```
+
+## Creating conda environments in Polaris
+ALCF has prebuilt environments containing GPU-supported builds of torch, tensorflow (both with horovod support for multi-node calculations), jax, and many other commonly-used Python modules.
+
+To use a prebuilt conda environment do the following:
+
+```
+module load conda/2023-01-10-unstable
+conda activate
+``` 
+
+If you need more flexibility to install your own packages (e.g. using conda install, pip install), then you can clone the base conda environment:
+
+```
+module load conda/2023-01-10-unstable
+conda activate
+conda create --clone base --prefix /path/to/envs/base-clone
+conda activate /path/to/envs/base-clone
+```
+Note: make sure to change /path/to/envs/base-clone to an appropriate location for the environment.
 
 # Using Jupyter Notebooks on Polaris
 
