@@ -7,6 +7,15 @@ Request an interactive node on Polaris with:
 ```qsub -I -A fallws23single -l select=1 -l walltime=01:00:00 -l filesystems=home:grand:eagle -q debug```
 
 ## Creating conda environments in Polaris
+Polaris uses modules to control loading of software environments. Loading modules will add/remove certain executables from the search space but will not install software or change the software location.
+
+Here are some module associated commands:
+
+```module list```: list currently loaded modules
+```module avail```: list modules available to be loaded
+```module load <module-name>```: load a module
+```module unload <module-name>```: unload a module
+
 ALCF has prebuilt environments containing GPU-supported builds of torch, tensorflow (both with horovod support for multi-node calculations), jax, and many other commonly-used Python modules.
 
 To use a prebuilt conda environment do the following:
@@ -15,6 +24,16 @@ To use a prebuilt conda environment do the following:
 module load conda/2023-01-10-unstable
 conda activate
 ``` 
+If you need to load an earlier conda environment for your application you can search for available conda environments via:
+
+```
+module avail conda
+```
+and load one of these environments via:
+
+```
+module load conda/2022-09-08
+```
 
 If you need more flexibility to install your own packages (e.g. using conda install, pip install), then you can clone the base conda environment:
 
