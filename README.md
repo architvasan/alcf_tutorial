@@ -6,7 +6,7 @@ Login via: https://jupyter.alcf.anl.gov/
 
 Select "Login Polaris" and use your ALCF credentials and Multi-Factor Authentication.
 
-![Login GIF](JupyterNotebookLogin.mp4)
+![Login GIF](JupyterNotebookLogin.gif)
 
 ## Server settings and start up
 You want to setup your server options to these following:
