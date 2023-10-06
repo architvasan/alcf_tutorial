@@ -12,8 +12,11 @@ Polaris uses modules to control loading of software environments. Loading module
 Here are some module associated commands:
 
 ```module list```: list currently loaded modules
+
 ```module avail```: list modules available to be loaded
+
 ```module load <module-name>```: load a module
+
 ```module unload <module-name>```: unload a module
 
 ALCF has prebuilt environments containing GPU-supported builds of torch, tensorflow (both with horovod support for multi-node calculations), jax, and many other commonly-used Python modules.
