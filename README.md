@@ -1,4 +1,10 @@
-# Generally using Python on Polaris
+# Python on Polaris
+
+## Logging in to interactive node
+
+Request an interactive node on Polaris with:
+
+''' qsub -I -A fallws23single -l select=1 -l walltime=01:00:00 -l filesystems=home:grand:eagle -q debug'''
 
 # Using Jupyter Notebooks on Polaris
 
