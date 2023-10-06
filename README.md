@@ -24,22 +24,12 @@ You want to setup your server options to these following:
 
 When you click "Start" you are submitting a job to the batch queue and waiting for the job to begin.
 
-## Creating a new notebook
+## Creating a new notebook and running python programs
 
-Once the job begins, start a new notebook as follows:
+Once the job begins, start a new notebook and feel free to rename it.
 
-**Put instruction image here.png**
+To use a conda environment with most of the necessary python modules (e.g. numpy, matplotlib, pandas, pytorch), please change your kernel for the notebook to datascience/conda-2023-01-10.
 
-## Running python programs within your notebook
+In this video, we are showing the steps of setting up a notebook, loading the appropriate environment and running a simple python script.
 
-Once you create your notebook, please feel free to rename it as follows:
-
-**Renaming image.png**
-
-Then, to use a conda environment with most of the necessary python modules (e.g. numpy, matplotlib, pandas, pytorch), please change your kernel for the notebook to datascience/conda-2023-01-10.
-
-**Changing kernel example.gif**
-
-Now, we will show you a simple python script where we create a list of numbers and plot this using matplotlib.
-
-**Add simple python script example here.**
+![PythonRun GIF](JupyterNotebook_Use.gif)
