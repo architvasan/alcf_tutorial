@@ -16,7 +16,7 @@ You want to setup your server options to these following:
 * Number of Nodes: 1-2
 * Runtime: please specify between 5 and 60 minutes
 
-![server options](Polaris_Jupyter_Login.mp4)
+![server options](JobOptions.png)
 
 When you click "Start" you are submitting a job to the batch queue and waiting for the job to begin.
 
