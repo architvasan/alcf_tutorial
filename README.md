@@ -6,7 +6,7 @@ Login via: https://jupyter.alcf.anl.gov/
 
 Select "Login Polaris" and use your ALCF credentials and Multi-Factor Authentication.
 <video id="myBGvid" autoplay muted loop>
-<source src="https://github.com/architvasan/alcf_tutorial/blob/d6a038a785f49e75259e3447ffdc9ffd9c6bde1b/JupyterNotebookLogin.mp4">
+<source src="https://github.com/architvasan/alcf_tutorial/blob/d6a038a785f49e75259e3447ffdc9ffd9c6bde1b/JupyterNotebookLogin.gif">
 </video>
 
 ## Server settings and start up
