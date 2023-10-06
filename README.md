@@ -38,4 +38,4 @@ In this video, we are showing the steps of setting up a notebook, loading the ap
 
 Finally, we show how to load machine learning modules Tensorflow and Pytorch. These are installed natively in the datascience/conda-2023-01-10 module. We also show how to check GPU usage for each module.
 
-
+~[MLRun GIF](JupyterNotebook_ML.gif)
