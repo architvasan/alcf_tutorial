@@ -33,3 +33,9 @@ To use a conda environment with most of the necessary python modules (e.g. numpy
 In this video, we are showing the steps of setting up a notebook, loading the appropriate environment and running a simple python script.
 
 ![PythonRun GIF](JupyterNotebook_Use.gif)
+
+## Running Machine learning modules
+
+Finally, we show how to load machine learning modules Tensorflow and Pytorch. These are installed natively in the datascience/conda-2023-01-10 module. We also show how to check GPU usage for each module.
+
+
