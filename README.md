@@ -14,7 +14,7 @@ You want to setup your server options to these following:
 * Queue Name: debug
 * Project List: fallws23single
 * Number of Nodes: 1-2
-* Runtime: please specify between 5 and 60 minutes
+* Runtime: please spec
 
 ![server options](JobOptions.png)
 
