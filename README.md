@@ -26,6 +26,33 @@ conda activate /path/to/envs/base-clone
 ```
 Note: make sure to change /path/to/envs/base-clone to an appropriate location for the environment.
 
+## Running a simple multi process Python run
+
+Polaris has 64 CPUs and 4 A100 GPUs on each of its compute nodes. To parallelize your run across these use MPI:
+```mpiexec -n NPROC -ppn PROC_PER_NODE yourrun```
+where NPROC is number of total processes to run on and PROC_PER_NODE is the number of processes on each node. Replace yourrun with your specific application.
+
+Here is a test application of MPI with Python using the mpi4py program:
+
+``` python
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD
+size = comm.Get_size()
+rank = comm.Get_rank()
+
+print(f'My rank is {rank} of {size} total ranks')
+```
+
+This program creates an MPI World, gets the numer of ranks (size), and the specific rank and prints the rank id across all processes.
+
+Example output using three total processes is:
+```
+My rank is 2 of 3 total ranks
+My rank is 0 of 3 total ranks
+My rank is 1 of 3 total ranks
+```
+
 # Using Jupyter Notebooks on Polaris
 
 ## Logging in 
