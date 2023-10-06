@@ -6,6 +6,8 @@ Login via: https://jupyter.alcf.anl.gov/
 
 Select "Login Polaris" and use your ALCF credentials and Multi-Factor Authentication.
 
+![Login GIF](JupyterNotebookLogin.mp4)
+
 ## Server settings and start up
 You want to setup your server options to these following:
 * Job profile: Polaris Compute Node
