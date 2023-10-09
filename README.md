@@ -85,10 +85,6 @@ Select "Login Polaris" and use your ALCF credentials and Multi-Factor Authentica
 
 ![Login GIF](JupyterNotebookLogin.gif)
 
-<video id="myBGvid" autoplay muted loop>
-<source src="[https://github.com/architvasan/alcf_tutorial/blob/b927498f73435a795f17b65716bcf41b305f94a5/JupyterNotebookLogin.gif](https://github.com/architvasan/alcf_tutorial/blob/b927498f73435a795f17b65716bcf41b305f94a5/JupyterNotebookLogin.gif)">
-</video>
-
 ## Server settings and start up
 You want to setup your server options to these following:
 * Job profile: Polaris Compute Node
